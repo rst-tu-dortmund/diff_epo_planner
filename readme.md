@@ -41,7 +41,12 @@ git clone https://github.com/rst-tu-dortmund/diff_epo_planner.git
 ```
 conda env create -f epo_waymo.yml
 ```
-- Activate the environment
+- Activate the environment.
+- Install [Theseus](https://github.com/facebookresearch/theseus) (Version 0.1.4)
+```
+pip install theseus-ai==0.1.4
+```
+
 The environment was tested on a machine with Ubuntu 18.04 with NVIDIA RTX 3090 and Ubuntu 22.04 with NVIDIA RTX 2080 Super. 
 
 ### 2. Data Processing
